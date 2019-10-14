@@ -1,0 +1,565 @@
+0:100  0:100  MemLog inited, TSC freq: 12412065680
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 7.10.2019,  19:52:39 (GMT)
+0:100  0:000  Starting Clover revision: 4920 on INSYDE Corp. EFI
+0:100  0:000  Build with: [Args: -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/src/edk2/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 13 | OS: 10.14.4 | XCODE: 10.2]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF) @6BFD6718
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingston
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 21148223
+0:100  0:000  SmbiosTable.Type17->PartNumber = 99U5428-101.A00LF 
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'Aspire E5-574G' with board 'Zoro_SL '
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=406E3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               20004
+0:100  0:000   TSC/CCC Information Leaf:
+0:100  0:000    numerator     : 200
+0:100  0:000    denominator   : 2
+0:100  0:000   Calibrated ARTFrequency: 124120656
+0:100  0:000  MSR 0xE2 before patch 1E008006
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              0004043D_F1011800
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 92 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 24.0/4
+0:100  0:000  Turbo: 26/26/26/27
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2200 MHz
+0:100  0:000  TSC: 2200 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 1904 class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 1916 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 520 (Intel)
+0:100  0:000  PCI (00|00:14.00) : 8086 9D2F class=0C0330
+0:100  0:000  PCI (00|00:14.02) : 8086 9D31 class=118000
+0:100  0:000  PCI (00|00:15.00) : 8086 9D60 class=118000
+0:100  0:000  PCI (00|00:16.00) : 8086 9D3A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 9D03 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 9D10 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 1299 class=030200
+0:100  0:000  PCI (00|01:00.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1C.04) : 8086 9D14 class=060400
+0:100  0:000  PCI (00|02:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1C.05) : 8086 9D15 class=060400
+0:100  0:000  PCI (00|03:00.00) : 168C 0042 class=028000
+0:100  0:000   - WIFI: Vendor=Atheros
+0:100  0:000  PCI (00|00:1F.00) : 8086 9D48 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 9D21 class=058000
+0:100  0:000  PCI (00|00:1F.03) : 8086 9D70 class=040300
+0:100  0:000  PCI (00|00:1F.04) : 8086 9D23 class=0C0500
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 0 bytes
+0:146  0:045  EFI\CLOVER\config.plist loaded: Success
+0:147  0:001  Found UEFI Acpi 2.0 RSDP at 77FFD014
+0:147  0:000  === [ GetListOfThemes ] ===================================
+0:147  0:000  - [00]: embedded
+0:147  0:000  - [00]: random
+0:147  0:000  - [00]: tonymacx86
+0:148  0:001  === [ Found config plists ] ===============================
+0:148  0:000  - config copy.plist
+0:148  0:000  - config_macbookPro.plist
+0:148  0:000  - config_Skylake.plist
+0:148  0:000  - config520.plist
+0:148  0:000  - config2.plist
+0:148  0:000  - config.plist
+0:148  0:000  === [ GetEarlyUserSettings ] ==============================
+0:148  0:000  timeout set to 5
+0:148  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:148  0:000  ForceKextsToLoad: 1 requested
+0:148  0:000   - [0]: System\Library\Extensions\IONetworkingFamily.kext
+0:148  0:000  KernelToPatch: 3 requested
+0:148  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:148  0:000   - [01]: Disable panic kext logging on 10.13 release kernel (credit vit9696) :: MatchOS: 10.13.x :: data len: 6
+0:148  0:000   - [02]: Disable panic kext logging on 10.14 release kernel (credit vit9696) :: MatchOS: 10.14.x :: data len: 6
+0:148  0:000  Default theme: BGM
+0:148  0:000  Hiding entries with string Preboot
+0:148  0:000  === [ LoadDrivers ] =======================================
+0:148  0:000  Loading ApfsDriverLoader-64.efi  status=Success
+0:149  0:000   - driver needs connecting
+0:149  0:000  Loading AptioMemoryFix-64.efi  status=Success
+0:149  0:000  Loading AudioDxe-64.efi  status=Success
+0:150  0:000   - driver needs connecting
+0:150  0:000  Loading DataHubDxe-64.efi  status=Success
+0:150  0:000  Loading FSInject-64.efi  status=Success
+0:150  0:000  Loading PartitionDxe-64.efi  status=Success
+0:151  0:000   - driver needs connecting
+0:151  0:000  Loading SMCHelper-64.efi  status=Success
+0:151  0:000  3 drivers needs connecting ...
+0:151  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:151  0:000  Partition driver loaded: CD disconnect SuccessCD disconnect Success
+0:151  0:000  APFS driver loaded
+0:151  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:273  0:121  === [ InitScreen ] ========================================
+0:273  0:000  Console modes reported: 6, available modes:
+0:273  0:000   - [01]: 80x25
+0:273  0:000   - [03]: 80x25
+0:273  0:000   - [04]: 170x40 (current mode)
+0:273  0:000   - [05]: 100x31
+0:273  0:000   - [06]: 128x40
+0:273  0:000  SetMaxResolution: found best mode 0: 1366x768
+0:273  0:000   - already set
+0:273  0:000  SetScreenResolution: 1366x768 - already set
+0:273  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+0:273  0:000  Using embedded font: Success
+0:273  0:000  === [ GetMacAddress ] =====================================
+0:273  0:000  === [ ScanSPD ] ===========================================
+0:273  0:000  Scanning SMBus [8086:9D23], mmio: 0x9452E004, ioport: 0x5040, hostc: 0x11
+0:277  0:003  Slot: 0 Type 24 8192MB 1600MHz Vendor=Kingston PartNo=99U5428-101.A00LF SerialNo=0105000E05020E08
+0:280  0:003  Slot: 2 Type 24 8192MB 1600MHz Vendor=Kingston PartNo=99U5428-101.A00LF SerialNo=0105000E030F0E08
+0:280  0:000  === [ GetAcpiTablesList ] =================================
+0:281  0:000  Found UEFI Acpi 2.0 RSDP at 77FFD014
+0:281  0:000  Get Acpi Tables List from RSDT:
+0:281  0:000   - [00]: FACP  ACRPRDCT len=268
+0:281  0:000   - [01]: TCPA  ACRPRDCT len=50
+0:281  0:000   - [02]: UEFI  ACRPRDCT len=566
+0:281  0:000   - [03]: UEFI  ACRPRDCT len=66
+0:281  0:000   - [04]: SSDT  ACRPRDCT len=1207
+0:281  0:000   - [05]: SSDT  ACRPRDCT len=75
+0:281  0:000   - [06]: TPM2  ACRPRDCT len=52
+0:281  0:000   - [07]: SSDT  ACRPRDCT len=16586
+0:281  0:000   - [08]: MSDM  ACRPRDCT len=85
+0:281  0:000   - [09]: SSDT  ACRPRDCT len=20083
+0:281  0:000   - [10]: DBGP  ACRPRDCT len=52
+0:281  0:000   - [11]: DBG2  ACRPRDCT len=84
+0:281  0:000   - [12]: SSDT  ACRPRDCT len=1226
+0:281  0:000   - [13]: ASF!  ACRPRDCT len=165
+0:281  0:000   - [14]: ASPT  ACRPRDCT len=52
+0:281  0:000   - [15]: BOOT  ACRPRDCT len=40
+0:281  0:000   - [16]: DBGP  ACRPRDCT len=52
+0:281  0:000   - [17]: HPET  ACRPRDCT len=56
+0:281  0:000   - [18]: LPIT  ACRPRDCT len=148
+0:281  0:000   - [19]: APIC  ACRPRDCT len=188
+0:281  0:000   - [20]: MCFG  ACRPRDCT len=60
+0:281  0:000   - [21]: SSDT  ACRPRDCT len=410
+0:281  0:000   - [22]: SSDT  ACRPRDCT len=1187
+0:281  0:000   - [23]: SSDT  ACRPRDCT len=3672
+0:281  0:000   - [24]: SSDT  ACRPRDCT len=12297
+0:281  0:000   - [25]: DMAR  ACRPRDCT len=204
+0:281  0:000   - [26]: FPDT  ACRPRDCT len=68
+0:281  0:000   - [27]: BGRT  ACRPRDCT len=56
+0:281  0:000  Calibrated TSC Frequency = 12412065680 = 12412MHz
+0:281  0:000  === [ GetUserSettings ] ===================================
+0:281  0:000  Add 2 devices:
+0:281  0:000  Add 8 properties:
+0:281  0:000   - [00]: NVidia Key: name, len: 9
+0:281  0:000   - [01]: NVidia Key: IOName, len: 9
+0:281  0:000   - [02]: NVidia Key: class-code, len: 4
+0:281  0:000   - [03]: ATI Key: name, len: 9
+0:281  0:000   - [04]: ATI Key: IOName, len: 9
+0:281  0:000   - [05]: ATI Key: class-code, len: 4
+0:281  0:000   - [06]: ATI Key: vendor-id, len: 4
+0:281  0:000   - [07]: ATI Key: device-id, len: 4
+0:281  0:000  USB FixOwnership: yes
+0:281  0:000  Dropping 3 tables:
+0:281  0:000   - [00]: Drop table  signature="#MCF" (46434D23)
+0:281  0:000           - set table: 46434D23,                0 to drop: no
+0:281  0:000   - [01]: Drop table  signature="DMAR" (52414D44)
+0:281  0:000           - set table: 52414D44,                0 to drop: yes
+0:281  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="xh_rvp10" (30317076725F6878)
+0:281  0:000           - set table: 54445353, 30317076725F6878 to drop: no
+0:281  0:000   - final DSDT Fix mask=00000000
+0:281  0:000  PatchesDSDT: 12 requested
+0:281  0:000   - [00]: (change OSID to XSID (to avoid match against _OSI XOSI patch)) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000    patch disabled at config
+0:281  0:000   - [01]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000    patch disabled at config
+0:281  0:000   - [02]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000    patch disabled at config
+0:281  0:000   - [03]: (change EC0 to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000    patch disabled at config
+0:281  0:000   - [04]: (change H_EC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000    patch disabled at config
+0:281  0:000   - [05]: (change ECDV to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000    patch disabled at config
+0:281  0:000   - [06]: (change HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000   - [07]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000   - [08]: (change MEI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000   - [09]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:281  0:000   - [10]: (change PCI0.VID to IGPU #1 (Thinkpad)) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+0:281  0:000   - [11]: (change PCI0.VID to IGPU #2 (Thinkpad)) lenToFind: 14, lenToReplace: 14, Target Bridge: <null string>
+0:281  0:000  Using ProductName from config: MacBookPro13,1
+0:281  0:000  BiosVersion: not set, Using BiosVersion from clover
+0:281  0:000  BiosVersion: MBP131.88Z.F000.B00.1902141510
+0:281  0:000  BiosReleaseDate: 02/14/2019
+0:281  0:000  Using EfiVersion from clover: 231.0.0.0.0
+0:281  0:000  Using FirmwareFeatures from clover: 0xFC0FE137
+0:281  0:000  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+0:281  0:000  Using PlatformFeature from clover: 0x1A
+0:281  0:000  === [ Found DSDT tables ] =================================
+0:318  0:037  === [ ScanVolumes ] =======================================
+0:318  0:000  Found 13 volumes with blockIO
+0:318  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)
+0:319  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+0:320  0:001          Result of bootcode detection: bootable Windows (win)
+0:321  0:000          This is SelfVolume !!
+0:321  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(2,GPT,E20D2D59-0CBD-0D7C-192F-B4537492E3CD,0xFA800,0x2CFD55C7)
+0:324  0:002          Result of bootcode detection: bootable Windows (vista,win)
+0:324  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)
+0:328  0:004          Result of bootcode detection: bootable Windows (win)
+0:330  0:001  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(4,GPT,0E3A18E8-4A85-D094-75B6-2E5A452E1B9E,0x2D102840,0x3ADD17BF)
+0:332  0:002          Result of bootcode detection: bootable Windows (vista,win)
+0:332  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,76F344C3-8BE6-A887-401E-08387518F169,0x67ED7800,0xC6F9688)
+0:335  0:003  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,6757C827-20B0-4525-9751-01F80894E3AA,0x745D0E88,0x135F20)
+0:338  0:003  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+0:338  0:000          Found optical drive
+0:338  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)
+0:338  0:000          Found optical drive
+0:338  0:000  Detected name APPLE COMPUTER, INC., TYPE: 00
+0:338  0:000          Found AppleDVD
+0:338  0:000          Result of bootcode detection: bootable unknown (mac)
+0:338  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+0:339  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:339  0:000          USB volume
+0:339  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+0:339  0:000          USB volume
+0:339  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+0:339  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:339  0:000          USB volume
+0:339  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+0:339  0:000          USB volume
+0:339  0:000  No AudioIoProtocols, status=Not Found
+0:339  0:000  === [ InitTheme ] =========================================
+0:339  0:000  use daylight theme
+0:339  0:000  GlobalConfig: BGM not found, get embedded theme
+0:339  0:000   using embedded theme
+0:339  0:000  got embedded sound
+0:339  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+0:339  0:000  output to channel 0 with volume 70, len=25600
+0:339  0:000   sound channels=2 bits=16 freq=8000
+0:339  0:000  sound converted to 48kHz
+0:339  0:000  not found AudioIo to play
+0:339  0:000  sound play end with status=68EF4312
+0:339  0:000  Using embedded font: Success
+0:339  0:000  theme inited
+0:339  0:000  Chosen embedded theme
+0:339  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -cdfon -igfxnohdmi
+0:339  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:339  0:000  found AppleSMC protocol
+0:342  0:002  Registered 17 SMC keys
+0:342  0:000  === [ AddCustomEntries ] ==================================
+0:342  0:000  Custom entry 0 Title:"Recovery" Path:"\com.apple.recovery.boot\boot.efi" Type:10 Flags:0x6 matching all volumes
+0:342  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+0:342  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+0:342  0:000  Custom entry 1 Title:"Windows" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching all volumes
+0:342  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+0:342  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+0:342  0:000  === [ ScanLoader ] ========================================
+0:342  0:000  - [01]: 'EFI'
+0:342  0:000          AddLoaderEntry for Volume Name=EFI
+0:342  0:000          skipped because entry is hidden
+0:342  0:000  - [03]: 'System'
+0:342  0:000  === [ AddCustomTool ] =====================================
+0:342  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:342  0:000  Checking EFI partition Volume 1 for Clover
+0:342  0:000   Found Clover
+0:342  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+0:342  0:000  Default boot entry not found
+0:342  0:000  DefaultIndex=-1 and MainMenu.EntryCount=6
+0:349  0:006  GUI ready
+5:195  4:846  ReinitSelfLib after theme change
+5:195  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:195  0:000  === [ ScanVolumes ] =======================================
+5:195  0:000  Found 13 volumes with blockIO
+5:195  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)
+5:195  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:195  0:000          Result of bootcode detection: bootable Windows (win)
+5:195  0:000          This is SelfVolume !!
+5:195  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(2,GPT,E20D2D59-0CBD-0D7C-192F-B4537492E3CD,0xFA800,0x2CFD55C7)
+5:195  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:195  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)
+5:195  0:000          Result of bootcode detection: bootable Windows (win)
+5:195  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(4,GPT,0E3A18E8-4A85-D094-75B6-2E5A452E1B9E,0x2D102840,0x3ADD17BF)
+5:195  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:195  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,76F344C3-8BE6-A887-401E-08387518F169,0x67ED7800,0xC6F9688)
+5:195  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,6757C827-20B0-4525-9751-01F80894E3AA,0x745D0E88,0x135F20)
+5:195  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+5:195  0:000          Found optical drive
+5:195  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)
+5:195  0:000          Found optical drive
+5:195  0:000  Detected name APPLE COMPUTER, INC., TYPE: 00
+5:195  0:000          Found AppleDVD
+5:195  0:000          Result of bootcode detection: bootable unknown (mac)
+5:195  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:195  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:195  0:000          USB volume
+5:195  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:195  0:000          USB volume
+5:195  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:196  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:196  0:000          USB volume
+5:196  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:196  0:000          USB volume
+5:196  0:000  No AudioIoProtocols, status=Not Found
+5:196  0:000  theme inited
+5:196  0:000  Chosen embedded theme
+5:196  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -cdfon -igfxnohdmi
+5:196  0:000  === [ AddCustomEntries ] ==================================
+5:196  0:000  Custom entry 0 Title:"Recovery" Path:"\com.apple.recovery.boot\boot.efi" Type:10 Flags:0x6 matching all volumes
+5:196  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:196  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:196  0:000  Custom entry 1 Title:"Windows" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching all volumes
+5:196  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:196  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:196  0:000  === [ ScanLoader ] ========================================
+5:196  0:000  - [01]: 'EFI'
+5:196  0:000          AddLoaderEntry for Volume Name=EFI
+5:196  0:000       skipped because path `PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)\EFI\BOOT\BOOTX64.efii` is self path!
+5:196  0:000  - [03]: 'System'
+5:196  0:000  === [ AddCustomTool ] =====================================
+5:196  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+5:196  0:000  Checking EFI partition Volume 1 for Clover
+5:196  0:000   Found Clover
+5:196  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+5:196  0:000  Default boot entry not found
+5:196  0:000  DefaultIndex=-1 and MainMenu.EntryCount=6
+5:286  0:089  ReinitSelfLib after theme change
+5:286  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:286  0:000  === [ ScanVolumes ] =======================================
+5:286  0:000  Found 13 volumes with blockIO
+5:286  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)
+5:286  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:286  0:000          Result of bootcode detection: bootable Windows (win)
+5:286  0:000          This is SelfVolume !!
+5:286  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(2,GPT,E20D2D59-0CBD-0D7C-192F-B4537492E3CD,0xFA800,0x2CFD55C7)
+5:286  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:286  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)
+5:286  0:000          Result of bootcode detection: bootable Windows (win)
+5:286  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(4,GPT,0E3A18E8-4A85-D094-75B6-2E5A452E1B9E,0x2D102840,0x3ADD17BF)
+5:286  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:286  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,76F344C3-8BE6-A887-401E-08387518F169,0x67ED7800,0xC6F9688)
+5:286  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,6757C827-20B0-4525-9751-01F80894E3AA,0x745D0E88,0x135F20)
+5:286  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+5:286  0:000          Found optical drive
+5:286  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)
+5:286  0:000          Found optical drive
+5:286  0:000  Detected name APPLE COMPUTER, INC., TYPE: 00
+5:286  0:000          Found AppleDVD
+5:286  0:000          Result of bootcode detection: bootable unknown (mac)
+5:286  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:286  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:286  0:000          USB volume
+5:286  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:286  0:000          USB volume
+5:286  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:286  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:286  0:000          USB volume
+5:286  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:286  0:000          USB volume
+5:286  0:000  No AudioIoProtocols, status=Not Found
+5:286  0:000  theme inited
+5:286  0:000  Chosen embedded theme
+5:286  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -cdfon -igfxnohdmi
+5:286  0:000  === [ AddCustomEntries ] ==================================
+5:286  0:000  Custom entry 0 Title:"Recovery" Path:"\com.apple.recovery.boot\boot.efi" Type:10 Flags:0x6 matching all volumes
+5:286  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:286  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:286  0:000  Custom entry 1 Title:"Windows" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching all volumes
+5:286  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:286  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:286  0:000  === [ ScanLoader ] ========================================
+5:286  0:000  - [01]: 'EFI'
+5:286  0:000          AddLoaderEntry for Volume Name=EFI
+5:286  0:000          skipped because entry is hidden
+5:286  0:000  - [03]: 'System'
+5:286  0:000  === [ AddCustomTool ] =====================================
+5:286  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+5:286  0:000  Checking EFI partition Volume 1 for Clover
+5:286  0:000   Found Clover
+5:286  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+5:286  0:000  Default boot entry not found
+5:286  0:000  DefaultIndex=-1 and MainMenu.EntryCount=6
+5:324  0:037  ReinitSelfLib after theme change
+5:324  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:324  0:000  === [ ScanVolumes ] =======================================
+5:324  0:000  Found 13 volumes with blockIO
+5:324  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)
+5:324  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:324  0:000          Result of bootcode detection: bootable Windows (win)
+5:324  0:000          This is SelfVolume !!
+5:324  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(2,GPT,E20D2D59-0CBD-0D7C-192F-B4537492E3CD,0xFA800,0x2CFD55C7)
+5:324  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:324  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)
+5:324  0:000          Result of bootcode detection: bootable Windows (win)
+5:324  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(4,GPT,0E3A18E8-4A85-D094-75B6-2E5A452E1B9E,0x2D102840,0x3ADD17BF)
+5:324  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:324  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,76F344C3-8BE6-A887-401E-08387518F169,0x67ED7800,0xC6F9688)
+5:324  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,6757C827-20B0-4525-9751-01F80894E3AA,0x745D0E88,0x135F20)
+5:324  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+5:324  0:000          Found optical drive
+5:324  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)
+5:324  0:000          Found optical drive
+5:325  0:000  Detected name APPLE COMPUTER, INC., TYPE: 00
+5:325  0:000          Found AppleDVD
+5:325  0:000          Result of bootcode detection: bootable unknown (mac)
+5:325  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:325  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:325  0:000          USB volume
+5:325  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:325  0:000          USB volume
+5:325  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:325  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:325  0:000          USB volume
+5:325  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:325  0:000          USB volume
+5:325  0:000  No AudioIoProtocols, status=Not Found
+5:325  0:000  theme inited
+5:325  0:000  Chosen embedded theme
+5:325  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -cdfon -igfxnohdmi
+5:325  0:000  === [ AddCustomEntries ] ==================================
+5:325  0:000  Custom entry 0 Title:"Recovery" Path:"\com.apple.recovery.boot\boot.efi" Type:10 Flags:0x6 matching all volumes
+5:325  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:325  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:325  0:000  Custom entry 1 Title:"Windows" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching all volumes
+5:325  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:325  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:325  0:000  === [ ScanLoader ] ========================================
+5:325  0:000  - [01]: 'EFI'
+5:325  0:000          AddLoaderEntry for Volume Name=EFI
+5:325  0:000       skipped because path `PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)\EFI\BOOT\BOOTX64.efii` is self path!
+5:325  0:000  - [03]: 'System'
+5:325  0:000  === [ AddCustomTool ] =====================================
+5:325  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+5:325  0:000  Checking EFI partition Volume 1 for Clover
+5:325  0:000   Found Clover
+5:325  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+5:325  0:000  Default boot entry not found
+5:325  0:000  DefaultIndex=-1 and MainMenu.EntryCount=6
+5:359  0:033  ReinitSelfLib after theme change
+5:359  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:359  0:000  === [ ScanVolumes ] =======================================
+5:359  0:000  Found 13 volumes with blockIO
+5:359  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)
+5:359  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:359  0:000          Result of bootcode detection: bootable Windows (win)
+5:359  0:000          This is SelfVolume !!
+5:359  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(2,GPT,E20D2D59-0CBD-0D7C-192F-B4537492E3CD,0xFA800,0x2CFD55C7)
+5:359  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:359  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)
+5:359  0:000          Result of bootcode detection: bootable Windows (win)
+5:359  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(4,GPT,0E3A18E8-4A85-D094-75B6-2E5A452E1B9E,0x2D102840,0x3ADD17BF)
+5:359  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:359  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,76F344C3-8BE6-A887-401E-08387518F169,0x67ED7800,0xC6F9688)
+5:359  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,6757C827-20B0-4525-9751-01F80894E3AA,0x745D0E88,0x135F20)
+5:359  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+5:359  0:000          Found optical drive
+5:359  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)
+5:359  0:000          Found optical drive
+5:359  0:000  Detected name APPLE COMPUTER, INC., TYPE: 00
+5:359  0:000          Found AppleDVD
+5:359  0:000          Result of bootcode detection: bootable unknown (mac)
+5:359  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:360  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:360  0:000          USB volume
+5:360  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:360  0:000          USB volume
+5:360  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:360  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:360  0:000          USB volume
+5:360  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:360  0:000          USB volume
+5:360  0:000  No AudioIoProtocols, status=Not Found
+5:360  0:000  theme inited
+5:360  0:000  Chosen embedded theme
+5:360  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -cdfon -igfxnohdmi
+5:360  0:000  === [ AddCustomEntries ] ==================================
+5:360  0:000  Custom entry 0 Title:"Recovery" Path:"\com.apple.recovery.boot\boot.efi" Type:10 Flags:0x6 matching all volumes
+5:360  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:360  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:360  0:000  Custom entry 1 Title:"Windows" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching all volumes
+5:360  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:360  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:360  0:000  === [ ScanLoader ] ========================================
+5:360  0:000  - [01]: 'EFI'
+5:360  0:000          AddLoaderEntry for Volume Name=EFI
+5:360  0:000          skipped because entry is hidden
+5:360  0:000  - [03]: 'System'
+5:360  0:000  === [ AddCustomTool ] =====================================
+5:360  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+5:360  0:000  Checking EFI partition Volume 1 for Clover
+5:360  0:000   Found Clover
+5:360  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+5:360  0:000  Default boot entry not found
+5:360  0:000  DefaultIndex=-1 and MainMenu.EntryCount=6
+5:396  0:035  ReinitSelfLib after theme change
+5:396  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:396  0:000  === [ ScanVolumes ] =======================================
+5:396  0:000  Found 13 volumes with blockIO
+5:396  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)
+5:396  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)
+5:396  0:000          Result of bootcode detection: bootable Windows (win)
+5:396  0:000          This is SelfVolume !!
+5:396  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(2,GPT,E20D2D59-0CBD-0D7C-192F-B4537492E3CD,0xFA800,0x2CFD55C7)
+5:396  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:396  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)
+5:396  0:000          Result of bootcode detection: bootable Windows (win)
+5:396  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(4,GPT,0E3A18E8-4A85-D094-75B6-2E5A452E1B9E,0x2D102840,0x3ADD17BF)
+5:396  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:396  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,76F344C3-8BE6-A887-401E-08387518F169,0x67ED7800,0xC6F9688)
+5:396  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,6757C827-20B0-4525-9751-01F80894E3AA,0x745D0E88,0x135F20)
+5:396  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+5:396  0:000          Found optical drive
+5:396  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)
+5:396  0:000          Found optical drive
+5:396  0:000  Detected name APPLE COMPUTER, INC., TYPE: 00
+5:396  0:000          Found AppleDVD
+5:396  0:000          Result of bootcode detection: bootable unknown (mac)
+5:396  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:396  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:396  0:000          USB volume
+5:396  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)
+5:396  0:000          USB volume
+5:396  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:397  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:397  0:000          USB volume
+5:397  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x1)\CDROM(0x0)\CDROM(0x0)
+5:397  0:000          USB volume
+5:397  0:000  No AudioIoProtocols, status=Not Found
+5:397  0:000  theme inited
+5:397  0:000  Chosen embedded theme
+5:397  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -cdfon -igfxnohdmi
+5:397  0:000  === [ AddCustomEntries ] ==================================
+5:397  0:000  Custom entry 0 Title:"Recovery" Path:"\com.apple.recovery.boot\boot.efi" Type:10 Flags:0x6 matching all volumes
+5:397  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:397  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:397  0:000  Custom entry 1 Title:"Windows" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching all volumes
+5:397  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)) ... skipped because path does not exist
+5:397  0:000      Checking volume "System" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,CE03E482-E8F6-6B39-A726-FD523E0A4BEF,0x2D0CFDC8,0x2F10C)) ... skipped because path does not exist
+5:397  0:000  === [ ScanLoader ] ========================================
+5:397  0:000  - [01]: 'EFI'
+5:397  0:000          AddLoaderEntry for Volume Name=EFI
+5:397  0:000       skipped because path `PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,16A07058-E7D5-2D03-353C-329F1FB6C184,0x800,0xF9FFF)\EFI\BOOT\BOOTX64.efii` is self path!
+5:397  0:000  - [03]: 'System'
+5:397  0:000  === [ AddCustomTool ] =====================================
+5:397  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+5:397  0:000  Checking EFI partition Volume 1 for Clover
+5:397  0:000   Found Clover
+5:397  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+5:397  0:000  Default boot entry not found
+5:397  0:000  DefaultIndex=-1 and MainMenu.EntryCount=6
